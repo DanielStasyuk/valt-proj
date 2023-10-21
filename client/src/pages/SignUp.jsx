@@ -37,7 +37,6 @@ export default function SignUp() {
       setError(error.message);
     }
   };
-  console.log(3333333, error);
   return (
     <div className="p-3 max-w-lg mx-auto">
       <h1 className="text-3xl text-center font-semibold m-5">Sign Up</h1>
